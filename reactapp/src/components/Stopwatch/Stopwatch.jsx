@@ -46,7 +46,6 @@ const Stopwatch = () => {
     removeVisible();
     setIsRunning(false);
   };
-
   const formattedTime = () => {
     const hours = Math.floor(time / 3600);
     const minutes = Math.floor((time % 3600) / 60);
